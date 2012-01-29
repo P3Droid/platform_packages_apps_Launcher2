@@ -18,7 +18,7 @@
     xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher"
     style="@style/SearchDropTargetBar"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/search_bar_height"
+    android:layout_height="0.0dip"
     android:layout_gravity="bottom|center_horizontal"
     android:background="@drawable/search_frame">
    <!-- Global search icon -->

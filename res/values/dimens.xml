@@ -30,8 +30,8 @@
     <dimen name="qsb_padding_left">0dp</dimen>
     <dimen name="qsb_padding_right">0dp</dimen>
     <dimen name="search_bar_height">40dp</dimen>
-    <dimen name="workspace_cell_width">80dp</dimen>
-    <dimen name="workspace_cell_height">100dp</dimen>
+    <dimen name="workspace_cell_width">85dp</dimen>
+    <dimen name="workspace_cell_height">95dp</dimen>
     <dimen name="workspace_width_gap">-1dp</dimen>
     <dimen name="workspace_height_gap">-1dp</dimen>
     <dimen name="workspace_max_gap">16dp</dimen>

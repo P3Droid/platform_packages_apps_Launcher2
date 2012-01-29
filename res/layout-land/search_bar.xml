@@ -17,7 +17,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher"
     style="@style/SearchDropTargetBar"
-    android:layout_width="@dimen/qsb_bar_height"
+    android:layout_width="0.0dip"
     android:layout_height="match_parent">
    <!-- Global search icon -->
    <com.android.launcher2.HolographicImageView

@@ -329,7 +329,7 @@ public final class Launcher extends Activity
         boolean voiceVisible = false;
         // If we have a saved version of these external icons, we load them up immediately
         int coi = getCurrentOrientationIndexForGlobalIcons();
-        if (sGlobalSearchIcon[coi] == null || sVoiceSearchIcon[coi] == null ||
+/*        if (sGlobalSearchIcon[coi] == null || sVoiceSearchIcon[coi] == null ||
                 sAppMarketIcon[coi] == null) {
             updateAppMarketIcon();
             searchVisible = updateGlobalSearchIcon();
@@ -347,7 +347,7 @@ public final class Launcher extends Activity
             updateAppMarketIcon(sAppMarketIcon[coi]);
         }
         mSearchDropTargetBar.onSearchPackagesChanged(searchVisible, voiceVisible);
-
+*/
         // On large interfaces, we want the screen to auto-rotate based on the current orientation
         if (LauncherApplication.isScreenLarge() || Build.TYPE.contentEquals("eng")) {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
